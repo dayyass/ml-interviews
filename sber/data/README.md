@@ -1,14 +1,14 @@
 ### Columns description
 
 **pays.csv**:
-- hash_inn_kt - обезличенный ИНН отправителя
-- hash_inn_dt - обезличенный ИНН получателя
-- week - неделя
-- count - количество платежей в неделю
-- sum - сумма платежей в неделю округленная до сотен
+- hash_inn_kt - anonymized sender INN
+- hash_inn_dt - anonymized recipient INN
+- week - week
+- count - number of payments per week
+- sum - the amount of payments per week, rounded to the nearest hundred
 
 **inn_info_public**:
-- hash_inn - обезличенный ИНН
-- okved2 - обезличенная отрасль (целевая переменная)
-- region - обезличенный регион
-- is_public - флаг выборка для обучения / контроля
+- hash_inn - anonymized INN
+- okved2 - anonymized industry (**target variable**)
+- region - anonymized region
+- is_public - flag train / validation

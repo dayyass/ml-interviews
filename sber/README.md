@@ -1,5 +1,5 @@
 ### Sberbank Home Assignment (2018)
-Position: Junior Data Scientist
+Position: Junior Data Scientist.
 
 The task of determining the industry of the company.
 

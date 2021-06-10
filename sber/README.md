@@ -4,6 +4,12 @@ Position: Junior Data Scientist.
 The task of determining the industry of the company.
 
 ### Data
+To download data execute:<br>
+```
+git lfs fetch
+git lfs checkout
+```
+
 [**pays.csv**](data/pays.csv) - payments between companies:
 - *hash_inn_kt* - anonymized sender INN
 - *hash_inn_dt* - anonymized recipient INN

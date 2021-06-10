@@ -1,4 +1,10 @@
 ### Data
+To download data execute:<br>
+```
+git lfs fetch
+git lfs checkout
+```
+
 [**pays.csv**](pays.csv) - payments between companies:
 - *hash_inn_kt* - anonymized sender INN
 - *hash_inn_dt* - anonymized recipient INN

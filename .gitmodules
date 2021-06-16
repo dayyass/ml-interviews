@@ -1,0 +1,3 @@
+[submodule "mts/data/russe-wsi-kit"]
+	path = mts/data/russe-wsi-kit
+	url = git@github.com:nlpub/russe-wsi-kit.git

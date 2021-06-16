@@ -4,6 +4,7 @@ Position: Junior Data Scientist.
 The task of determining the industry of the company.
 
 ### Data
+Data is stored in a folder [**data**](data)<br>
 To download data execute:<br>
 ```
 git lfs fetch

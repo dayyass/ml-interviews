@@ -6,12 +6,23 @@ The task is based on: *https://nlpub.github.io/russe-wsi-kit*
 
 ### Data
 Data is stored in a folder [**data**](data)<br>
-Since data is stored as submodule ([URL](https://github.com/nlpub/russe-wsi-kit)), to download it execute:<br>
+Since data is stored as submodule ([*URL*](https://github.com/nlpub/russe-wsi-kit)), to download it execute:<br>
 ```
 git submodule init
 git submodule update
 ```
 
-Train data: [main/active-dict](https://github.com/nlpub/russe-wsi-kit/blob/master/data/main/active-dict/train.csv)<br>
-Test data: [additional/active-rutenten](https://github.com/nlpub/russe-wsi-kit/blob/master/data/additional/active-rutenten/train.csv)<br>
-Baseline: [script](https://github.com/nlpub/russe-wsi-kit/blob/master/baseline_adagram.py), [main/active-dict](https://github.com/nlpub/russe-wsi-kit/blob/master/data/main/active-dict/train.baseline-adagram.csv), [additional/active-rutenten](https://github.com/nlpub/russe-wsi-kit/blob/master/data/additional/active-rutenten/train.baseline-adagram.csv)
+Train data: [*main/active-dict*](https://github.com/nlpub/russe-wsi-kit/blob/master/data/main/active-dict/train.csv)<br>
+Test data: [*additional/active-rutenten*](https://github.com/nlpub/russe-wsi-kit/blob/master/data/additional/active-rutenten/train.csv)<br>
+Baseline: [*script*](https://github.com/nlpub/russe-wsi-kit/blob/master/baseline_adagram.py), [*main/active-dict*](https://github.com/nlpub/russe-wsi-kit/blob/master/data/main/active-dict/train.baseline-adagram.csv), [*additional/active-rutenten*](https://github.com/nlpub/russe-wsi-kit/blob/master/data/additional/active-rutenten/train.baseline-adagram.csv)
+
+### Modules
+[This](modules) folder contains third-party libraries/repositories that are used in experiments, namely:
+- [*bertwsi*](https://github.com/asafamr/bertwsi) - Word Sense Induction with BERT
+
+Since modules are git repositories, they are stored as submodules.<br>
+To download it execute:<br>
+```
+git submodule init
+git submodule update
+```

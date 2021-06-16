@@ -1,3 +1,6 @@
 [submodule "mts/data/russe-wsi-kit"]
 	path = mts/data/russe-wsi-kit
-	url = git@github.com:nlpub/russe-wsi-kit.git
+	url = https://github.com/nlpub/russe-wsi-kit
+[submodule "mts/modules/bertwsi"]
+	path = mts/modules/bertwsi
+	url = https://github.com/asafamr/bertwsi

@@ -8,3 +8,8 @@ To download it execute:<br>
 git submodule init
 git submodule update
 ```
+
+*bertwsi* relies on *spacy* library, so to work with it run:
+```
+python -m spacy download en
+```

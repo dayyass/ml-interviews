@@ -4,3 +4,7 @@
 [submodule "mts/modules/bertwsi"]
 	path = mts/modules/bertwsi
 	url = https://github.com/dayyass/bertwsi
+[submodule "mts/modules/spacy-ru"]
+	path = mts/modules/spacy-ru
+	url = git@github.com:buriy/spacy-ru.git
+	branch = v2.1

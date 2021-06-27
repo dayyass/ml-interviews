@@ -2,6 +2,7 @@
 *.python-version
 *__pycache__
 *.DS_Store
+*debug
 *venv
 .idea
 *.pyc

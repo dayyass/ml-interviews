@@ -19,6 +19,7 @@ Baseline: [*script*](https://github.com/nlpub/russe-wsi-kit/blob/master/baseline
 ### Modules
 [This](modules) folder contains third-party libraries/repositories that are used in experiments, namely:
 - [*bertwsi*](https://github.com/dayyass/bertwsi) - Word Sense Induction with BERT
+- [*spacy-ru*](https://github.com/buriy/spacy-ru) - russian language models for spaCy (used in *bertwsi*)
 
 Since modules are git repositories, they are stored as submodules.<br>
 To download it execute:<br>
@@ -27,7 +28,6 @@ git submodule init
 git submodule update
 ```
 
-*bertwsi* relies on *spacy* library, so to work with it run:
-```
-python -m spacy download en
-```
+### Solutions
+All solutions are stored in a folder [**solutions**](solutions):
+- [*bert_wsi.ipynb*](solutions/bert_wsi.ipynb)

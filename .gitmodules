@@ -6,5 +6,8 @@
 	url = https://github.com/dayyass/bertwsi
 [submodule "mts/modules/spacy-ru"]
 	path = mts/modules/spacy-ru
-	url = git@github.com:buriy/spacy-ru.git
+	url = https://github.com/buriy/spacy-ru
 	branch = v2.1
+[submodule "mts/modules/simple_elmo"]
+	path = mts/modules/simple_elmo
+	url = https://github.com/ltgoslo/simple_elmo

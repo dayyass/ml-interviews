@@ -10,3 +10,8 @@ To download it execute:<br>
 git submodule init
 git submodule update
 ```
+
+To install [*adagram*](https://github.com/lopuhin/python-adagram) model execute:
+```
+pip install git+https://github.com/lopuhin/python-adagram.git
+```

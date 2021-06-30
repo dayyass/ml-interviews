@@ -55,7 +55,7 @@ nest-asyncio==1.5.1
 nltk==3.6.2
 nodeenv==1.6.0
 notebook==6.4.0
-numpy==1.21.0
+numpy==1.19.5
 packaging==20.9
 pandas==1.2.5
 pandocfilters==1.4.3

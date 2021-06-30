@@ -34,6 +34,12 @@ To install [*adagram*](https://github.com/lopuhin/python-adagram) model execute:
 pip install git+https://github.com/lopuhin/python-adagram.git
 ```
 
+To download `ruscorpora_mean_hs.model.bin.gz` model execute:
+```
+git lfs fetch
+git lfs checkout
+```
+
 ### Solutions
 All solutions are stored in a folder [**solutions**](solutions):
 - [*bert_wsi.ipynb*](solutions/bert_wsi.ipynb)

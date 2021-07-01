@@ -43,3 +43,8 @@ git lfs checkout
 ### Solutions
 All solutions are stored in a folder [**solutions**](solutions):
 - [*bert_wsi.ipynb*](solutions/bert_wsi.ipynb)
+- [*word2vec.ipynb*](solutions/word2vec.ipynb)
+
+All predictions are stored in a folder [**predictions**](solutions/predictions):
+- [*bert_wsi_prediction.tsv*](solutions/predictions/bert_wsi_prediction.tsv)
+- [*word2vec_prediction.tsv*](solutions/predictions/word2vec_prediction.tsv)

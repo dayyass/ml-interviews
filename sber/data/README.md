@@ -1,5 +1,6 @@
 ### Data
-To download data execute:<br>
+Data is stored in this folder using [**git lfs**](https://git-lfs.github.com)<br>
+To download data install [**git lfs**](https://git-lfs.github.com) and execute:
 ```
 git lfs fetch
 git lfs checkout

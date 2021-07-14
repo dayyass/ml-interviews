@@ -1,5 +1,5 @@
 ### MTS Home Assignment (2020)
-Position: Middle NLP Engineer.
+Position: **Middle NLP Engineer**.
 
 Word Sense Induction [**assignment**](assignment.pdf)<br>
 The task is based on: [link](https://nlpub.github.io/russe-wsi-kit)
